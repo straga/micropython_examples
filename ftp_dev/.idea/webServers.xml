@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="894a084a-b01b-455b-91a7-2dab165b62dd" name="dev_105" url="http://192.168.100.105">
+        <fileTransfer anonymous="true" host="192.168.100.105" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" controlEncoding="utf-8" dataProtectionLevel="Private" keepAliveCommand="PWD" keepAliveTimeout="0" passiveMode="true" accurateTimestamps="NEVER" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
