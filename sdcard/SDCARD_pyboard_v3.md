@@ -7,10 +7,10 @@ SD card  128MB
 1. Make portion: for example fdisk (Linux)
 ![b8b70295fd779deeac898277e58ebac6.png](./_resources/82320f5af4884118a6183a5f96a3a5f1.png)
 
-3. Clone micropython and install toolchain for STM32 (Linux)
+3. git clone repo micropython and install toolchain for STM32 (Linux)
 
-4. Copy: master/ports/stm32/boards/PYBV3 to master/ports/stm32/boards/PYBV3_green
-5. Change: ports/stm32/boards/PYBV3_green/mpconfigboard.h
+4. Copy: micropython/ports/stm32/boards/PYBV3 to micropython/ports/stm32/boards/PYBV3_green
+5. Change: micropython/ports/stm32/boards/PYBV3_green/mpconfigboard.h
 FROM
 // SD card detect switch
 `#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_C13)`
