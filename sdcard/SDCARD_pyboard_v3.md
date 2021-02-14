@@ -11,13 +11,15 @@ SD card  128MB
 
 4. Copy: micropython/ports/stm32/boards/PYBV3 to micropython/ports/stm32/boards/PYBV3_green
 5. Change: micropython/ports/stm32/boards/PYBV3_green/mpconfigboard.h
-FROM
-// SD card detect switch
+""FROM""
+`// SD card detect switch`
 `#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_C13)`
 `#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLDOWN)`
 `#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_SET)`
-TO
-// SD card detect switch
+
+""TO""
+
+`// SD card detect switch`
 `#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_C13)`
 `#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLUP)`
 `#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_RESET)`
