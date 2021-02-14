@@ -14,18 +14,19 @@ SD card  128MB
 
 
 **FROM**
-`// SD card detect switch`
-`#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_C13)`
-`#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLDOWN)`
-`#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_SET)`
-
+```
+// SD card detect switch
+#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_C13)
+#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLDOWN)
+#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_SET)
+```
 **TO**
-
-`// SD card detect switch`
-`#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_C13)`
-`#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLUP)`
-`#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_RESET)`
-
+```
+// SD card detect switch`
+#define MICROPY_HW_SDCARD_DETECT_PIN        (pin_C13)
+#define MICROPY_HW_SDCARD_DETECT_PULL       (GPIO_PULLUP)
+#define MICROPY_HW_SDCARD_DETECT_PRESENT    (GPIO_PIN_RESET)
+```
 
 6.  make BOARD=PYBV3_green
 7. Flash dfu
