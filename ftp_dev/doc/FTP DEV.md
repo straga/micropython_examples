@@ -1,6 +1,5 @@
 FTP Pycharm - DEV
 
-на русском - https://mcumpu.ru/forum/viewtopic.php?f=13&t=242&p=1896#p1896
 
 1. Open Pycharm Project.
 
